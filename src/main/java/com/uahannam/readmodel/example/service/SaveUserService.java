@@ -44,7 +44,7 @@ public class SaveUserService implements SaveUserUseCase {
         );
 
         UserEventDto userEventDto = new UserEventDto(
-                "1111",
+                UUID.randomUUID().toString(),
                 user.getId()
         );
 
